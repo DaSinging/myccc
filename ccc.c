@@ -1,9 +1,10 @@
 /*
-	2018-4-19 周四下午
+	xxxx-xx-xx xxx
 
-	小项目：剪刀石头布（C语言）
+	名称：剪刀石头布
 
-	%c%*c：可以多输出一个字符却不赋给任何变量
+    语言：C
+    IDE：VC++6.0
 
 	分析：
 		1.剪刀s0、石头r1、布p2
@@ -11,14 +12,16 @@
 		3.电脑赢
 		4.平局
 
+	%c%*c：可以多输出一个字符却不赋给任何变量
+
 	总结：
 		因为需要获取字符，总跟缓冲区的遗留字符有关，而我没有太好地处理缓冲区内容，
 		所以此程序还不太完善
 */
 
-# include<stdio.h>
-# include <stdlib.h>	//srand(),rand()
-# include<time.h>		//time()
+# include <stdio.h>
+# include  <stdlib.h>	//srand(),rand()
+# include <time.h>		//time()
 
 void playGame(void);
 char yourTurn(void);
